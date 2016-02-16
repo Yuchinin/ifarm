@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<animation-list  
+  xmlns:android="http://schemas.android.com/apk/res/android"  
+  android:oneshot="true"  
+  >  
+    <item android:drawable="@drawable/btn_myifarm_status_e" android:duration="1000"></item>  
+    <item android:drawable="@drawable/btn_effect_myifarm_status_e_1" android:duration="100"></item>  
+    <item android:drawable="@drawable/btn_effect_myifarm_status_e_2" android:duration="100"></item>  
+    <item android:drawable="@drawable/btn_effect_myifarm_status_e_3" android:duration="100"></item>  
+	<item android:drawable="@drawable/btn_myifarm_status_e" android:duration="3000"></item>
+</animation-list>  

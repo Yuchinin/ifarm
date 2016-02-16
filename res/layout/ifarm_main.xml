@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_status_cam"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.06"
+        android:orientation="vertical" >
+
+        <FrameLayout
+            android:id="@+id/web_container"
+            android:layout_width="246dp"
+            android:layout_height="189dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginTop="46dp" >
+
+            <WebView
+                android:id="@+id/webV"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txtStatus"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:background="@drawable/banner3"
+        android:gravity="center|bottom"
+        android:textColor="@android:color/darker_gray"
+        android:textSize="40dp" />
+
+    <LinearLayout
+        android:layout_weight="0.1"
+                 android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+   android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                android:id="@+id/imgbtnWatering"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/imgbtnFertilizing"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/imgbtnSpray"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_weight="1"
+                android:background="@null" />
+           
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.1"
+        
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_marginLeft="60dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <ImageButton
+                
+                android:id="@+id/imgbtnWeeding"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                
+                android:background="@null" />
+
+            <ImageButton
+                android:id="@+id/imgbtnHarvesting"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                
+                android:background="@null" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

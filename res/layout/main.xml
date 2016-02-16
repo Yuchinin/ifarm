@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lnl"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_home2"
+    android:orientation="vertical"
+    tools:context=".Main" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_weight="1.19"
+        android:orientation="vertical" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageButton
+            android:id="@+id/ibtn_explore"
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:background="@null"/>
+
+        <ImageButton
+            android:id="@+id/ibtn_market"
+            android:layout_width="146dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dp"
+            android:layout_marginTop="62dp"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.30" >
+
+        <ImageButton
+            android:id="@+id/ibtn_myifarm"
+            android:layout_width="292dp"
+            android:layout_height="188dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="13dp"
+            android:layout_weight="0.81"
+            android:background="@null"/>
+    </LinearLayout>
+
+</LinearLayout>

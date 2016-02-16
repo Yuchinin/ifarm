@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="ifarm.com"
+    android:versionCode="57"
+    android:versionName="Beta 1.7.3" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <!-- Allow to connect with internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+ 	<uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <application
+        android:typeface="serif"
+        android:screenOrientation="portrait"
+        android:icon="@drawable/icon2"
+        android:label="@string/app_name"
+        android:theme="@style/Theme.FullScreen" android:allowBackup="true">
+        <activity
+            android:name="ifarm.com.Main"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/explore_crops" android:name=".Explore_Crops"></activity>
+        <activity android:label="@string/recipes_main" android:name=".recipes_main"></activity>
+        <activity android:name=".farm_list"></activity>
+        <activity android:name=".Plant_details"></activity>
+        <activity android:name=".about" android:label="@string/about"></activity>
+        <activity android:name=".Dashboard" android:label="@string/welcome"></activity>
+        <activity android:name=".Login_main" android:label="@string/userlogin"></activity>
+        <activity android:name=".Register_main" android:label="@string/register"></activity>
+        <activity android:name=".ifarm_main" android:label="@string/ifarm"></activity>
+        <activity android:name=".search_main" android:label="@string/search"></activity>
+        <activity android:name=".leaderboard" android:label="@string/leaderboard"></activity>
+        <activity android:name=".bazaar" android:label="@string/bazaar"></activity>
+        <activity android:name=".Setting" android:label="@string/setting"></activity>
+        <activity android:name=".MyInfo" android:label="@string/info"></activity>
+        <activity android:name=".Manager_user" android:label="User Manager"></activity>
+        <activity android:name=".history" android:label="History"></activity>
+        <activity android:name=".PlantListSP" android:label="@string/select_plant"></activity>
+        <activity android:name=".universalimageloader.ImageListActivity" android:label="@string/userlist"></activity>
+        <activity android:label="Description" android:name=".universalimageloader.ImagePagerActivity"></activity>
+        <activity android:name=".UserList" android:label="@string/userlist"></activity>
+        <activity android:name=".User_details" android:label="@string/change_info"></activity>
+        <activity android:label="Select Photo" android:name=".UploadImage"></activity>
+        <activity android:name=".universalimageloader.ImageGridActivity" android:label="Bazaar"></activity>
+        <activity android:label="Cart List" android:name=".CartList"></activity>
+        <activity android:name=".AllOrderList" android:label="SellerList"></activity>
+        <activity android:name=".AllOrderDetail"></activity>
+        <activity android:name=".FarmDetails"></activity>
+        <activity android:name=".PlantListSP1"></activity>
+        <activity android:name=".AllActionList"></activity>
+        <activity android:name=".Developer"></activity>
+        <activity android:name=".PlantReadyList"></activity>
+        <activity android:name=".AllOrderDetails_Details"></activity>
+        <activity android:name=".MessageBoard"></activity>
+        
+    </application>
+     
+</manifest>

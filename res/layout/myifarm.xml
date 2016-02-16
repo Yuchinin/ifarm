@@ -1,0 +1,79 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_ifarm"
+    android:orientation="vertical"
+    tools:context=".MainActivity" >
+    
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="155dp" >
+
+        <ImageButton
+            android:id="@+id/ibtn_plant"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="0.68"
+            android:background="@android:color/transparent"
+            android:src="@drawable/btn_myifarm_plant_c" />
+
+        <ImageButton
+            android:id="@+id/ibtn_status"
+            android:layout_width="130dp"
+            android:layout_height="130dp"
+            android:layout_marginRight="17dp"
+            android:layout_weight="0.68"
+            android:background="@null"
+            android:src="@drawable/btn_myifarm_status_c" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="293dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="38dp" >
+
+            <ImageButton
+                android:id="@+id/ibtn_history"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginLeft="22dp"
+                android:layout_marginTop="18dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn_myifarm_history_c" />
+
+            <ImageButton
+                android:id="@+id/ibtn_info"
+                android:layout_width="130dp"
+                android:layout_height="130dp"
+                android:layout_marginRight="17dp"
+                android:layout_marginTop="13dp"
+                android:layout_weight="1"
+                android:background="@android:color/transparent"
+                android:src="@drawable/btn_myifarm_info_c" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+
+    </LinearLayout>
+
+</LinearLayout>

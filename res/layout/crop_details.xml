@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rl_de"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/bg_cropdetails_autumn"
+    tools:context=".Animationtest" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.16"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/txtName"
+            android:layout_width="174dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:textColor="@android:color/black"
+            android:textSize="25dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <Gallery
+                android:id="@+id/gallery"
+                android:layout_width="137dp"
+                android:layout_height="120dp"
+                android:layout_marginLeft="35dp"
+                android:layout_marginTop="12dp" />
+
+            <LinearLayout
+                android:layout_marginTop="70dp"
+                android:layout_width="wrap_content"
+                android:layout_height="98dp"
+                android:layout_marginLeft="35dp"
+                android:orientation="vertical" >
+
+                <ImageButton
+                    android:id="@+id/btnPlant"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/btn_cropdetails_plant_c" />
+
+                <ImageButton
+                    android:id="@+id/btnOrder"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@null"
+                    android:src="@drawable/btn_cropdetails_order_c" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="310dp" >
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent" >
+
+                <ScrollView
+                    android:id="@+id/scrollView1"
+                    android:layout_width="match_parent"
+                    android:layout_height="201dp"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="0.83" >
+
+                    <TextView
+                        android:id="@+id/txtDesc"
+                        android:layout_width="150dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginBottom="46dp"
+                        android:textColor="@android:color/black"
+                        android:textColorHint="#ffffff" />
+                </ScrollView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="12dp"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginTop="17dp" >
+
+                    <ImageButton
+                        android:id="@+id/btnUp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@null"
+                        android:src="@drawable/btn_cropdetails_previous_c" />
+
+                    <ImageButton
+                        android:id="@+id/btnDown"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:background="@null"
+                        android:src="@drawable/btn_cropdetails_next_c" />
+                </LinearLayout>
+
+                <ImageButton
+                   
+                    android:id="@+id/btnCart"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="13dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@null" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
